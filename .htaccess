@@ -1,0 +1,36 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+
+    # if a directory or a file exists, use it directly
+    RewriteCond %{REQUEST_FILENAME} !-f
+    # RewriteCond %{REQUEST_FILENAME} !-d
+
+    # otherwise forward it to index.php
+    RewriteRule . index.php
+
+    # deny access to hidden files and directories except .well-known
+    RewriteCond %{REQUEST_URI} !^/\.well-known
+    RewriteRule ^(.*/)?\.+ - [F]
+
+    # deny access to composer.json that is used for remote fingerprinting
+    RewriteRule ^composer.json - [F]
+</IfModule>
+
+# deny access to hidden files and directories without mod_rewrite
+RedirectMatch 403 ^/(?!\.well-known/)(.*/)?\.+
+
+# General setting to properly handle LimeSurvey paths
+# AcceptPathInfo on
+
+# XSS protection
+<IfModule mod_headers.c>
+    Header set X-XSS-Protection "1; mode=block"
+    <FilesMatch "\.(svgz?)$">
+        Header set Content-Security-Policy "default-src 'none'; frame-ancestors 'none'; style-src 'self' 'unsafe-inline'"
+    </FilesMatch>
+</IfModule>
+
+# Disable Multiviews (issue #16859)
+<IfModule mod_negotiation.c>
+    Options -MultiViews
+</IfModule>

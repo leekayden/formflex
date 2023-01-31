@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"  class="no-js en dir-ltr">
+	<head>
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="en dir-ltr  no-js " >
+            
+
+
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="generator" content="LimeSurvey http://www.limesurvey.org" />
+
+        
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" type="text/css" href="/limesurvey/tmp/assets/f1aa4bbb/jquery-ui.structure.css" />
+<link rel="stylesheet" type="text/css" href="/limesurvey/tmp/assets/83a327d2/css/font-awesome.min.css" />
+<link rel="stylesheet" type="text/css" href="/limesurvey/tmp/assets/d6746dc6/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href="/limesurvey/tmp/assets/d6746dc6/yiistrap.min.css" />
+<link rel="stylesheet" type="text/css" href="/limesurvey/tmp/assets/d3cc3ea2/css/bootstrap-switch.min.css" />
+<link rel="stylesheet" type="text/css" href="/limesurvey/tmp/assets/b5bdd5a5/css/select2.css" />
+<link rel="stylesheet" type="text/css" href="/limesurvey/tmp/assets/b5bdd5a5/css/select2-bootstrap.css" />
+<link rel="stylesheet" type="text/css" href="/limesurvey/tmp/assets/b4540331/css/bootstrap-datetimepicker.min.css" />
+<link rel="stylesheet" type="text/css" href="/limesurvey/tmp/assets/77b6ba1b/roboto.css" />
+<link rel="stylesheet" type="text/css" href="/limesurvey/tmp/assets/77b6ba1b/icomoon.css" />
+<link rel="stylesheet" type="text/css" href="/limesurvey/tmp/assets/982b35be/build/lstutorial.css" />
+<link rel="stylesheet" type="text/css" href="/limesurvey/tmp/assets/627b155f/build/adminbasics.min.css" />
+<link rel="stylesheet" type="text/css" href="/limesurvey/tmp/assets/d8c7d5a0/build.min/css/adminsidepanel.css" />
+<link rel="stylesheet" type="text/css" href="/limesurvey/tmp/assets/77b6ba1b/noto.css" />
+<link rel="stylesheet" type="text/css" href="/limesurvey/tmp/assets/2076e4ad/survey.css" />
+<link rel="stylesheet" type="text/css" href="/limesurvey/tmp/assets/4614c1ef/build/embeddables.min.css" />
+<link rel="stylesheet" type="text/css" href="/limesurvey/tmp/assets/f903966a/template-core.css" />
+<link rel="stylesheet" type="text/css" href="/limesurvey/tmp/assets/f903966a/awesome-bootstrap-checkbox/awesome-bootstrap-checkbox.css" />
+<link rel="stylesheet" type="text/css" href="/limesurvey/tmp/assets/70dcbf1d/css/noTablesOnMobile.css" />
+<link rel="stylesheet" type="text/css" href="/limesurvey/tmp/assets/70dcbf1d/css/ajaxify.css" />
+<link rel="stylesheet" type="text/css" href="/limesurvey/tmp/assets/70dcbf1d/./css/noTablesOnMobile.css" />
+<link rel="stylesheet" type="text/css" href="/limesurvey/tmp/assets/30ff1ed0/css/animate.css" />
+<link rel="stylesheet" type="text/css" href="/limesurvey/tmp/assets/30ff1ed0/css/variations/sea_green.css" />
+<link rel="stylesheet" type="text/css" href="/limesurvey/tmp/assets/30ff1ed0/css/theme.css" />
+<link rel="stylesheet" type="text/css" href="/limesurvey/tmp/assets/30ff1ed0/css/custom.css" />
+<script type='text/javascript'>window.debugState = {frontend : (0 === 1), backend : (0 === 1)};</script><script type="text/javascript" src="/limesurvey/tmp/assets/de003358/jquery-3.6.1.min.js" class="headScriptTag"></script>
+<script type="text/javascript" src="/limesurvey/tmp/assets/de003358/jquery-migrate-3.4.0.min.js" class="headScriptTag"></script>
+<script type="text/javascript" src="/limesurvey/tmp/assets/f1aa4bbb/jquery-ui.min.js" class="headScriptTag"></script>
+<script type="text/javascript" src="/limesurvey/tmp/assets/d8c7d5a0/build.min/js/adminsidepanel.js" class="headScriptTag"></script>
+<script type="text/javascript" src="/limesurvey/tmp/assets/f524f690/js.cookie.js" class="headScriptTag"></script>
+<script type="text/javascript" src="/limesurvey/tmp/assets/d6746dc6/bootstrap.min.js" class="headScriptTag"></script>
+<script type="text/javascript" src="/limesurvey/tmp/assets/d6746dc6/plugins/bootstrapconfirm/bootstrapconfirm.min.js" class="headScriptTag"></script>
+<script type="text/javascript" src="/limesurvey/tmp/assets/f9234bed/moment-with-locales.min.js" class="headScriptTag"></script>
+<script type="text/javascript" src="/limesurvey/tmp/assets/b5bdd5a5/js/select2.full.min.js" class="headScriptTag"></script>
+<script type="text/javascript" src="/limesurvey/tmp/assets/375b7194/build/lslog.js" class="headScriptTag"></script>
+<script type="text/javascript" src="/limesurvey/tmp/assets/4316e16f/min/pjax.combined.min.js" class="headScriptTag"></script>
+<script type="text/javascript" src="/limesurvey/tmp/assets/d3ce6cb6/ckeditor.js" class="headScriptTag"></script>
+<script type="text/javascript" src="/limesurvey/tmp/assets/d3ce6cb6/config.js" class="headScriptTag"></script>
+<script type="text/javascript" src="/limesurvey/tmp/assets/5bb33c70/ckeditoradditions.js" class="headScriptTag"></script>
+<script type="text/javascript" src="/limesurvey/tmp/assets/4316e16f/pjax.js" class="headScriptTag"></script>
+<script type="text/javascript" src="/limesurvey/tmp/assets/314f469b/em_javascript.js" class="headScriptTag"></script>
+<script type="text/javascript" src="/limesurvey/tmp/assets/2076e4ad/survey.js" class="headScriptTag"></script>
+<script type="text/javascript" src="/limesurvey/tmp/assets/f903966a/template-core.js" class="headScriptTag"></script>
+<script type="text/javascript" src="/limesurvey/tmp/assets/70dcbf1d/scripts/theme.js" class="headScriptTag"></script>
+<script type="text/javascript" src="/limesurvey/tmp/assets/70dcbf1d/scripts/ajaxify.js" class="headScriptTag"></script>
+<script type="text/javascript" src="/limesurvey/tmp/assets/70dcbf1d/scripts/custom.js" class="headScriptTag"></script>
+<script type="text/javascript" src="/limesurvey/tmp/assets/fb81e688/nojs.js" class="headScriptTag"></script>
+<script type="text/javascript">
+/*<![CDATA[*/
+
+           window.LS = window.LS || {}; window.LS.globalUserId = "1";
+LSvar= LSvar || {};
+/*]]>*/
+</script>
+<title>
+         Template Sample 
+    </title>
+            <link rel="shortcut icon" href="/limesurvey/tmp/assets/3852d52e/favicon.ico" />
+        <script type="text/javascript">
+        if(window.basicThemeScripts === undefined){ 
+            window.basicThemeScripts = new ThemeScripts(); 
+        } 
+    </script>
+        
+        
+    
+
+<style>
+    
+            body .top-container {
+            margin-top: 70px;
+        }
+    
+    body {
+         padding-bottom: 10px;
+         padding-top: 60px;/* now is redefine in JS to fit any title length */
+         background-color:#ffffff ;
+         color: #444444;
+    }
+
+    .navbar-default .navbar-nav > li > a:hover {
+        color: #444444;
+    }
+
+
+    .question-container {
+      background-color: #ffffff;
+
+              border:  1px solid #e6e6e6;
+      
+              box-shadow: 0 1px 2px rgba(0,0,0,.2);
+          }
+
+        .checkbox-item input[type="checkbox"]:checked + label::after, .checkbox-item input[type="radio"]:checked + label::after {
+        content: "\f00c";
+    }
+
+    
+                            
+        .checkbox-item input[type="checkbox"]:checked + label::after{
+            animation-name: rubberBand;
+            animation-duration: 500ms;
+            animation-fill-mode: both;
+            animation-iteration-count: 1;
+            display: inline-block;
+            -webkit-transform: none;
+            -ms-transform: none;
+            -o-transform: none;
+            transform: none;
+        }
+        .checkbox-item input[type="checkbox"] + label::after{
+            display: none;
+            -webkit-transform: none;
+            -ms-transform: none;
+            -o-transform: none;
+            transform: none;
+        }
+    
+    
+                            
+        .radio-item input[type="radio"]:checked + label::after{
+            animation-name: zoomIn;
+            animation-duration: 500ms;
+            animation-fill-mode: both;
+            animation-iteration-count: 1;
+            display: inline-block;
+            -webkit-transform: none;
+            -ms-transform: none;
+            -o-transform: none;
+            transform: none;
+        }
+        .radio-item input[type="radio"] + label::after{
+            display:none;
+            -webkit-transform: none;
+            -ms-transform: none;
+            -o-transform: none;
+            transform: none;
+        }
+    
+    
+    
+    
+    
+    
+    
+    
+</style>
+
+
+
+
+
+    
+</head>
+
+        <body style="padding-top: 90px;" class=" fruity vanilla font-noto lang-en  brand-logo"  >
+
+                            <span style="display: none;" id="__emcache_debug" value="off"></span>
+        
+                            <div id="beginScripts" class="script-container">
+                <script type="text/javascript" src="/limesurvey/tmp/assets/d3cc3ea2/js/bootstrap-switch.min.js"></script>
+<script type="text/javascript" src="/limesurvey/tmp/assets/b4540331/js/bootstrap-datetimepicker.min.js"></script>
+<script type="text/javascript" src="/limesurvey/tmp/assets/627b155f/build/adminbasics.min.js"></script>
+<script type="text/javascript" src="/limesurvey/tmp/assets/da67851/js/modaleditor.js"></script>
+<script type="text/javascript" src="/limesurvey/tmp/assets/ecb86ed1/decimal.js"></script>
+<script type="text/javascript" src="/limesurvey/tmp/assets/b6f4ff9/decimalcustom.js"></script>
+
+            </div>
+               
+
+                <article>
+
+            <div id="dynamicReloadContainer">
+            
+                                                    
+<!-- Bootstrap Navigation Bar -->
+<div class=" navbar navbar-default navbar-fixed-top" >
+    <div class=" navbar-header   "  >
+        <button type="button" class=" navbar-toggle collapsed "  data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"   >
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+
+                            <div class=" navbar-brand  logo-container hidden-xs"    >
+                
+            </div>
+            </div>
+    <div id="navbar" class=" collapse navbar-collapse "  >
+        <ul class=" nav navbar-nav  navbar-action-link  navbar-right" >
+                <!-- Load unfinished survey button -->
+    <li class=" ls-no-js-hidden " >
+        <a href="#" data-limesurvey-submit='{ "loadall":"loadall" }' class=' ls-link-action ls-link-loadall  animate' >
+            Load unfinished survey
+        </a>
+    </li>
+
+
+            
+
+
+  
+            
+
+            <!-- Question index, group,  -->
+        <li class=" ls-index-menu ls-no-js-hidden   dropdown index-menu-"  >
+            <a class="    dropdown-toggle"  data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="#" >
+                Question index
+                <span class="   caret" ></span>
+            </a>
+
+            <ul class="   dropdown-menu" >
+                                                    
+                    
+                    
+                    
+
+                    <li class=" "  >
+                        <a href='' data-limesurvey-submit='' class='aminate'>
+                            A group without step status styling
+                        </a>
+                    </li>
+                                    
+                                                                
+                    
+                    
+
+                    <li class="  bg-warning"  >
+                        <a href='' data-limesurvey-submit='' class='aminate'>
+                            This group is unanswered
+                        </a>
+                    </li>
+                                    
+                    
+                                                                
+                    
+
+                    <li class="  bg-danger"  >
+                        <a href='' data-limesurvey-submit='' class='aminate'>
+                            This group has an error
+                        </a>
+                    </li>
+                                    
+                    
+                    
+                                                                
+
+                    <li class="  disabled"  >
+                        <a href='' data-limesurvey-submit='' class='aminate'>
+                            Current group is disabled
+                        </a>
+                    </li>
+                            </ul>
+        </li>
+    
+        
+            
+
+        
+    <!-- Language Changer, top menu version -->
+    <li class=" ls-no-js-hidden form-change-lang  dropdown"   >
+        <a class="  dropdown-toggle animate"  data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"  >
+
+                        Language: English
+            <span class="  caret"   ></span>
+        </a>
+
+        <ul class=" language_change_container  dropdown-menu" id="langs-container"  style="overflow: scroll"  >
+                                        <li class="index-item "  >
+                    <a href='#' data-limesurvey-lang='en' class="ls-language-link  animate"  >
+                        English
+                    </a>
+                </li>
+                            <li class="index-item "  >
+                    <a href='#' data-limesurvey-lang='de' class="ls-language-link  animate"  >
+                        German
+                    </a>
+                </li>
+                    </ul>
+    </li>
+
+
+
+
+
+        </ul>
+    </div>
+</div>
+
+                
+                                                    
+                
+                <!-- Outer Frame Container -->
+                                                                            <!-- outer frame container -->
+<div class=" outerframe    container  " id="outerframeContainer"  >
+        
+<!-- Main Row -->
+<div id="main-row"  >
+    <!-- Main Col -->
+    <div class="  col-centered  space-col" id="main-col" >
+
+                                
+
+
+
+
+                        
+
+                                        
+
+
+
+<!-- No JavaScript alert -->
+<div class=' ls-js-hidden warningjs  alert alert-danger '    data-type='checkjavascript'>
+    Caution: JavaScript execution is disabled in your browser or for this website. You may not be able to answer all questions in this survey. Please, verify your browser parameters.
+</div>
+
+
+    
+    <!-- Start of language change Form-->
+    <form id="firstpage-changelang" autocomplete="off" class="form" method="post">
+<input type="hidden" value="c1JsRDdjdG5FTl9ZamFkcnJCc0tRUU1HRTgwbTlpV3PD5E8hSWOFsRJ0UJLefPqSCMpXuqYHDmLq0Bc9UGwYag==" name="YII_CSRF_TOKEN" />
+
+
+    
+    
+        
+            <!-- Language Changer -->
+    <div class="   form-change-lang form-inline"  >
+        <label class=" "  for="lang">
+            <span class="control-label" >Language:</span>
+            <select class="form-control" name="lang" id="lang">
+<option value="en" selected="selected">English</option>
+<option value="de">German</option>
+</select>
+        </label>
+        <!-- for no js functionality (need form) -->
+                <button type="submit" value="changelang" name="move" class="btn btn-info ls-language-changer-item ">Change the language</button>
+    </div>
+
+        
+    
+
+
+    </form>
+
+
+
+
+
+
+
+<!-- Start of the main Form-->
+<form id="limesurvey" name="limesurvey" autocomplete="off" class="survey-form-container form" method="post">
+<input type="hidden" value="c1JsRDdjdG5FTl9ZamFkcnJCc0tRUU1HRTgwbTlpV3PD5E8hSWOFsRJ0UJLefPqSCMpXuqYHDmLq0Bc9UGwYag==" name="YII_CSRF_TOKEN" />
+
+<!-- Ajax value -->
+<!-- Needs to be set by javascript! Because if JavaScript is disabled, ajaxmode will completely fail! -->
+
+
+
+<!-- Field Names -->
+<input type='hidden' name='fieldnames' value='' id='fieldnames' />
+
+
+
+<!-- Submit button -->
+<button type="submit" id="defaultbtn" value="default" name="move" class="submit hidden" style="display:none">default</button>
+ <!-- main form -->
+
+        
+
+        
+<!-- Welcome Message -->
+<div id="welcome-container" class="" >
+
+    <!-- Survey Name -->
+    <h1 class=" survey-name  text-center"  >
+         Template Sample 
+    </h1>
+
+    <!-- Survey description -->
+    <div class=" survey-description  text-info text-center" >
+        <p>This is a sample survey description. It could be quite long.</p><p>But this one isn&#039;t.<p>
+    </div>
+
+    <!-- Welcome text -->
+    <div class=" survey-welcome  h4 text-primary" >
+        <p>Welcome to this sample survey <p> <p> You should have a great time doing this <p> 
+    </div>
+
+    <!-- Question count -->
+    <div class=" number-of-questions   text-muted" >
+        <div class=' question-count-text ' >
+
+                                </div>
+  </div>
+</div>
+
+
+    
+<!-- Privacy message -->
+
+<div class=" privacy  row" >
+    <div class="   col-sm-12 col-centered" >
+                                                                                                                
+<input required class="" type="checkbox" name="datasecurity_accepted" id="datasecurity_accepted" />
+<label for="datasecurity_accepted" class="control-label "> <a href='#data-security-modal-' data-toggle='collapse'> Show privacy policy </a>  </label>
+
+<div class="collapse fade" id="data-security-modal-">
+    <div class="panel panel-primary">
+        <div class="panel-heading">
+            <h4 class="modal-title">Privacy policy</h4>
+        </div>
+        <div class="panel-body ">
+             Your privacy policy text is shown here. 
+        </div>
+        <div class="ls-no-js-hidden panel-footer">
+            <button type="button" class="btn btn-primary" onclick="$('#datasecurity_accepted').prop('checked',true).trigger('change');" data-dismiss="modal">Accept</button>
+            <button type="button" class="btn btn-default" onclick="$('#data-security-modal-').collapse('hide');">Close</button>
+        </div>
+    </div>
+</div>
+<script>
+$(function() {
+    $("#ls-button-submit").on("click", function() {
+        if(!$('#datasecurity_accepted').prop('checked')) {
+            /* dynamic show error */
+            $('#datasecurity_error').removeClass("ls-js-hidden");
+            if($('#datasecurity_error').length) {
+                /* add it in aria and role */
+                $('#datasecurity_error').attr("role", "alert");
+                $('#datasecurity_accepted').attr("aria-describedby", "datasecurity_error ");
+            }
+        }
+    });
+});
+$("#datasecurity_accepted").on("change", function() {
+    if($('#datasecurity_accepted').prop('checked')) {
+        /* dynamic hide error */
+        $('#datasecurity_error').addClass("ls-js-hidden");
+    }
+});
+</script>
+
+                                        </div>
+</div>
+
+
+        
+
+<!-- PRESENT THE NAVIGATOR -->
+<div class="    row navigator space-col" id="navigator-container" >
+
+    <!-- Previous button container -->
+    <div class="   col-xs-6 text-left" >
+
+                            <!-- Button previous -->
+            <button  id="ls-button-previous" type="submit" value="moveprev" name="move"  accesskey="p" class="   ls-move-btn ls-move-previous-btn action--ls-button-previous btn btn-lg btn-default " >
+                Previous
+            </button>
+            </div>
+    <div class="   col-xs-6 text-right">
+
+                
+                                        <!-- Button Next -->
+                <button  id="ls-button-submit" type="submit" value="movenext" name="move"  accesskey="n" class="   ls-move-btn ls-move-next-btn ls-move-submit-btn action--ls-button-submit  btn btn-lg btn-primary " >
+                    Next
+                </button>
+                        </div>
+</div>
+<!-- Extra navigator part -->
+    <!-- extra tools, can be shown with javascript too (just remove ls-js-hidden class -->
+    <div class="row ls-js-hidden">
+        <!-- Extra button container -->
+        <div class="col-xs-6 clearall-saveall-wrapper">
+                                <button  type="submit" value="loadall" name="loadall"  accesskey="l" class="ls-saveaction ls-loadall  action--ls-button-submit btn btn-default">Load unfinished survey</button>
+
+                                        
+<div class=" form-inline">
+    <div class="">
+        <label class="form-group ls-js-hidden">
+            <input value="confirm" name="confirm-clearall" type="checkbox" class=""><span class="control-label">Please confirm you want to clear your response?</span>
+        </label>
+        <button type="submit" name="clearall" value="clearall" data-confirmedby="confirm-clearall" class="ls-clearaction ls-clearall btn btn-link" title="This action need to be confirmed.">Exit and clear survey</button>
+    </div>
+</div>
+
+                    </div>
+         <!-- Index container -->
+                    
+<div class="col-sm-6 index-wrapper">
+            <div class="list-group index-button-full">
+  <div class="list-group-item">
+      <div class="h4 list-group-item-heading">Question index</div>
+  </div>
+                      <button type="submit" name="move" value="" class="list-group-item  " >A group without step status styling</button>
+                                  <button type="submit" name="move" value="" class="list-group-item   list-group-item-warning" >This group is unanswered</button>
+                                  <button type="submit" name="move" value="" class="list-group-item   list-group-item-danger" >This group has an error</button>
+                                  <button type="submit" name="move" value="" class="list-group-item   disabled" >Current group is disabled</button>
+  </div>
+
+    
+    </div>
+
+            </div>
+
+
+
+</form> <!-- main form -->
+
+
+
+            
+
+    </div> <!-- main col -->
+</div> <!-- main row -->
+</div>
+                
+                                
+
+
+
+<!-- Bootstrap Modal Alert -->
+<div id="bootstrap-alert-box-modal" class=" modal fade " >
+    <div class=" modal-dialog " >
+        <div class=" modal-content "  >
+            <div class=" modal-header "  style="min-height:40px;"  >
+                <button   type="button" data-dismiss="modal" aria-hidden="true"  class=" close "  >&times;</button>
+                <div class=" modal-title h4 " >&nbsp;</div>
+            </div>
+            <div class=" modal-body " >
+            </div>
+                        <div class=" modal-footer " >
+                <a  href="#" data-dismiss="modal"   class=" btn btn-default ">Close</a>
+            </div>
+                    </div>
+    </div>
+</div>
+
+
+                                
+
+                        </div>
+
+        </article>
+                    
+                            <div id="bottomScripts" class="script-container">
+                <script type="text/javascript" src="/limesurvey/tmp/assets/982b35be/build/lstutorial.min.js"></script>
+<script type="text/javascript" src="/limesurvey/tmp/assets/4614c1ef/build/embeddables.min.js"></script>
+<script type="text/javascript">
+/*<![CDATA[*/
+jQuery('body').popover({'selector':'a\x5Brel\x3Dpopover\x5D'});
+jQuery('body').tooltip({'selector':'a\x5Brel\x3Dtooltip\x5D'});
+activateLanguageChanger(); 
+
+                if(window.basicThemeScripts === undefined){ 
+                    window.basicThemeScripts = new ThemeScripts(); 
+                } 
+                basicThemeScripts.initGlobal(); 
+                
+jQuery(document).off('pjax:scriptcomplete.mainBottom').on('ready pjax:scriptcomplete.mainBottom', function() {
+activateActionLink();
+activateConfirmButton();
+basicThemeScripts.initTopMenuLanguageChanger('.ls-language-link ', 'form#limesurvey'); 
+
+    $('#limesurvey').append('<input type="hidden" name="ajax" value="off" id="ajax" />');
+    
+
+    if(window.basicThemeScripts === undefined){ 
+        window.basicThemeScripts = new ThemeScripts(); 
+    } 
+
+});
+/*]]>*/
+</script>
+
+            </div>
+           
+
+                    <script>
+                window.basicThemeScripts.init();
+            </script>
+                
+    </body>
+</html>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <metadata>
+        <name>ComfortUpdateChecker</name>
+        <type>plugin</type>
+        <creationDate>2020-10-12</creationDate>
+        <lastUpdate>2020-10-12</lastUpdate>
+        <author>LimeSurvey GmbH</author>
+        <authorUrl>https://limesurvey.org</authorUrl>
+        <email>support@limesurvey.org</email>
+        <version>1.0.0</version>
+        <license>GNU General Public License version 2 or later</license>
+        <description><![CDATA[Checks if a new update is available in ComfortUpdate]]></description>
+        <supportUrl>https://www.limesurvey.org</supportUrl>
+    </metadata>
+    <compatibility>
+        <version>5.0</version>
+        <version>4.0</version>
+ 	    <version>3.0</version>
+    </compatibility>
+    <updaters disabled="disabled">
+        
+    </updaters>
+</config>
